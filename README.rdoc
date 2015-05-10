@@ -1,7 +1,7 @@
 == README
-[![Build Status](https://semaphoreci.com/api/v1/projects/486730ce-c397-4c6c-a2da-c322a388f9e2/419987/badge.svg)](https://semaphoreci.com/eliaslopez76/fridgr)
-
 {<img src="https://codeclimate.com/github/eliasdev76/fridgr/badges/gpa.svg" />}[https://codeclimate.com/github/eliasdev76/fridgr]
+{<img src="https://codeclimate.com/github/eliasdev76/fridgr/badges/coverage.svg" />}[https://codeclimate.com/github/eliasdev76/fridgr/coverage]
+{<img src="https://semaphoreci.com/api/v1/projects/486730ce-c397-4c6c-a2da-c322a388f9e2/419987/badge.svg" />}[https://semaphoreci.com/eliaslopez76]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
