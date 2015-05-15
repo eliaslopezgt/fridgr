@@ -3,6 +3,17 @@
 {<img src="https://codeclimate.com/github/eliasdev76/fridgr/badges/coverage.svg" />}[https://codeclimate.com/github/eliasdev76/fridgr/coverage]
 {<img src="https://semaphoreci.com/api/v1/projects/486730ce-c397-4c6c-a2da-c322a388f9e2/419987/badge.svg" />}[https://semaphoreci.com/eliaslopez76]
 
+Fridgr
+
+is an app that lets you create a container, and fill it with stuff.
+keep history of old stuff that left the container and made suggestions for replenish based
+on current status or anticipating depletion.
+
+the app can also share the fridgr content in facebook
+and you can send something to other fridgrs
+
+like gallons of milk, that they can exchange at a local grocery store.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
