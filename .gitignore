@@ -12,3 +12,10 @@
 !/log/.keep
 /tmp
 .env
+
+# ruby-version & ruby-gemset
+.ruby-version
+.ruby-gemset
+
+#rubymine
+.idea/
