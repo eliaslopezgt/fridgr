@@ -8,6 +8,7 @@ Fridgr
 is an app that lets you create a container, and fill it with stuff.
 keep history of old stuff that left the container and made suggestions for replenish based
 on current status or anticipating depletion.
+adjusting the contents of stuff with sliders and cool gui elements
 
 the app can also share the fridgr content in facebook
 and you can send something to other fridgrs
