@@ -24,6 +24,8 @@ like gallons of milk, that they can exchange at a local grocery store.
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+this is an update from wm
+
 Things you may want to cover:
 
 * Ruby version
