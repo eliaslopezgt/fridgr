@@ -10,9 +10,15 @@ keep history of old stuff that left the container and made suggestions for reple
 on current status or anticipating depletion.
 adjusting the contents of stuff with sliders and cool gui elements
 
+types of actors participating:
+container(by type eg. fridge, alacena, etc)
+measurable stuff (this can be measured by existence(boolean) or percentaje)
+user
+
 the app can also share the fridgr content in facebook
 and you can send something to other fridgrs
 
+a fridgr can be shared among users so many users can update a fridgr at once like a family
 like gallons of milk, that they can exchange at a local grocery store.
 
 This README would normally document whatever steps are necessary to get the
