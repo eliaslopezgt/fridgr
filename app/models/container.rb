@@ -1,4 +1,4 @@
 class Container < ActiveRecord::Base
   belongs_to :user
-  has_one :container_type
+  belongs_to :container_type
 end
