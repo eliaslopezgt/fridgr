@@ -15,6 +15,9 @@ container(by type eg. fridge, alacena, etc)
 measurable stuff (this can be measured by existence(boolean) or percentaje)
 user
 
+the system will anticipate depletion the same way the aprox mileage on a car works
+keeping track of average mpg and the status of the tank.
+
 the app can also share the fridgr content in facebook
 and you can send something to other fridgrs
 

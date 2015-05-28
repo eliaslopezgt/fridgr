@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150528000433) do
+ActiveRecord::Schema.define(version: 20150528001847) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,10 +39,12 @@ ActiveRecord::Schema.define(version: 20150528000433) do
     t.integer  "group"
     t.integer  "position"
     t.integer  "measure"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.boolean  "replenishable"
     t.integer  "container_id"
+    t.integer  "depletion_factor"
+    t.integer  "days_in_container"
   end
 
   add_index "items", ["container_id"], name: "index_items_on_container_id", using: :btree
