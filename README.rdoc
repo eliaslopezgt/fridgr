@@ -18,6 +18,11 @@ user
 the system will anticipate depletion the same way the aprox mileage on a car works
 keeping track of average mpg and the status of the tank.
 
+use case:
+I bought a gallon of milk on monday... put no tracking.
+buy it again on friday. . 
+system will assume it took 5 days to consume, will track "automatically" based on that depletion ratio and will anticipate
+
 the app can also share the fridgr content in facebook
 and you can send something to other fridgrs
 
