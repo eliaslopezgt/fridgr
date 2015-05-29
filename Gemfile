@@ -32,7 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sprockets'
 gem 'haml'
 gem 'bower-rails'
-gem 'emcee', :git => 'https://github.com/eliaslopezgt/emcee.git'
+#gem 'emcee', :git => 'https://github.com/eliaslopezgt/emcee.git'
+gem 'emcee', github: "ahuth/emcee", branch: "fix-compressor-removing-urls"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
