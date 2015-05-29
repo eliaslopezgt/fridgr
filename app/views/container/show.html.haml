@@ -3,7 +3,16 @@
 %p
   This is the container number #{params[:id]}
   and the name is #{@container.name}
-
+:javascript
+  // register a new element called proto-element
+  Polymer({
+    is: "proto-element",
+    // add a callback to the element's prototype
+    ready: function() {
+      this.innerHTML = "I'm a proto-element. Check out my prototype!"
+    }
+  });
+<proto-element></proto-element>
 %paper-tabs{:selected => "0", :scrollable => ""}
   %paper-tab Skills
   %paper-tab Experiences
