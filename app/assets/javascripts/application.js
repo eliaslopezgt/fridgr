@@ -15,7 +15,3 @@
 //= require angular-resource/angular-resource
 //= require webcomponentsjs/webcomponents
 //= require platform/platform
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .

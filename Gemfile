@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'sprockets', "< 3.0.0"
+gem 'sprockets'
 gem 'haml'
 gem 'bower-rails'
 gem 'emcee'
