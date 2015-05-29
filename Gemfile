@@ -35,6 +35,7 @@ gem 'polymer-rails'
 gem 'polymer-core-rails'
 gem 'polymer-paper-rails'
 gem 'sprockets', "< 3.0.0"
+gem 'haml'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

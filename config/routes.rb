@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'container/:id/show' => 'container#show', as: :container_show
+
   devise_for :users
   resources :container_types
   get 'welcome/index'
