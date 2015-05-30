@@ -24,5 +24,7 @@ module Fridge
     config.active_record.raise_in_transactional_callbacks = true
     config.autoload_paths += %W(#{config.root}/lib)
     config.assets.paths << Rails.root.join("vendor", "assets", "bower_components")
+    config.secret_key = '8682519720f800580741afbdaa1b556f49f24d34b99cc1c1bcb5ea8f2a46632409cefa9ddffcde4ee0204b15f3bd7666b65567f86f8ec3b22a21dbeeb4e42690'
+  
   end
 end
