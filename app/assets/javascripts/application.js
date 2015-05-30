@@ -10,9 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require angular/angular
-//= require angular-route/angular-route
-//= require angular-resource/angular-resource
-//= require webcomponentsjs/webcomponents
-//= require platform/platform
+//= require webcomponentsjs/webcomponents-lite.min
+
 

@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/eliaslopezgt/emcee.git
-  revision: 42211d2a88fc105982048cfe933d28bf105ecedb
-  specs:
-    emcee (1.0.10)
-      nokogiri (~> 1.0)
-      nokogumbo (~> 1.1)
-      rails (~> 4.2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -74,6 +65,10 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    emcee (1.0.10)
+      nokogiri (~> 1.0)
+      nokogumbo (~> 1.1)
+      rails (~> 4.0)
     erubis (2.7.0)
     execjs (2.5.2)
     globalid (0.3.5)
@@ -219,7 +214,7 @@ DEPENDENCIES
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   devise
-  emcee!
+  emcee
   haml
   jbuilder (~> 2.0)
   jquery-rails
