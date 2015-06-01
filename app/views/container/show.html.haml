@@ -7,3 +7,22 @@
 <paper-button>flat button</paper-button>
 <paper-button raised>raised button</paper-button>
 <paper-button noink>No ripple effect</paper-button>
+
+<dom-module id="user-view">
+<template>
+First: <span>{{first}}</span><br>
+Last: <span>{{last}}</span>
+</template>
+</dom-module>
+
+<script>
+Polymer({
+is: 'user-view',
+properties: {
+first: String,
+last: String
+}
+});
+</script>
+
+<user-view first="Samuel" last="Adams"></user-view>
