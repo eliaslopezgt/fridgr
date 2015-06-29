@@ -6065,6 +6065,7 @@ button.close {
 }
 
 @media screen and (min-width: 768px) {
+
     .modal-dialog {
         width: 600px;
         margin: 30px auto;
@@ -6600,6 +6601,10 @@ td.visible-xs {
 }
 
 @media (max-width: 767px) {
+    /* HeaderWrap */
+    #headerwrap {
+        padding-top: 20px !important;
+    }
     .visible-xs {
         display: block !important;
     }
@@ -6616,6 +6621,10 @@ td.visible-xs {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    /* HeaderWrap */
+    #headerwrap {
+        padding-top: 20px !important;
+    }
     .visible-xs.visible-sm {
         display: block !important;
     }
@@ -6894,6 +6903,7 @@ td.hidden-xs {
 }
 
 @media (max-width: 767px) {
+
     .hidden-xs,
     tr.hidden-xs,
     th.hidden-xs,
