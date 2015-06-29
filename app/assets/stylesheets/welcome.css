@@ -6603,7 +6603,7 @@ td.visible-xs {
 @media (max-width: 767px) {
     /* HeaderWrap */
     #headerwrap {
-        padding-top: 20px !important;
+        padding-top: 60px !important;
     }
     .visible-xs {
         display: block !important;
@@ -6623,7 +6623,7 @@ td.visible-xs {
 @media (min-width: 768px) and (max-width: 991px) {
     /* HeaderWrap */
     #headerwrap {
-        padding-top: 20px !important;
+        padding-top: 60px !important;
     }
     .visible-xs.visible-sm {
         display: block !important;
