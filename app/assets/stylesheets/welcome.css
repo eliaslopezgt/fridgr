@@ -7117,15 +7117,6 @@ td.visible-print {
     }
 }
 
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: FLATTY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 body {
     background-color: #f2f2f2;
     font-family: 'Lato', sans-serif;
@@ -7172,7 +7163,7 @@ p {
 
 /* Links */
 a {
-    color: #3498db;
+    color: #9EBF6D;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -7235,7 +7226,7 @@ hr {
 
 i {
     margin: 8px;
-    color: #3498db;
+    color: #9EBF6D;
 }
 
 
