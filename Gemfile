@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem 'sprockets'
 gem 'haml'
+gem 'mailchimp-api', require: 'mailchimp'
 #gem 'emcee', :git => 'https://github.com/eliaslopezgt/emcee.git'
 #gem 'emcee'
 group :development, :test do
