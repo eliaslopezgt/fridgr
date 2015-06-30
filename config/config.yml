@@ -1,11 +1,10 @@
 defaults: &defaults
   :mailchimp:
-    :api_key: "bda7db4e058a2a53eff5da8494580cf7-us6"
     :timeout: 15
     :notify_on_unsubscribe: false
     :delete_on_unsubscribe: true
     :double_optin_on_subscribe: false
-    :list_id_for_claimed_emails: "269048c8ea"
+    :list_id_for_claimed_emails: "f27201ce45"
 
 production:
   <<: *defaults
