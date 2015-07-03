@@ -64,6 +64,8 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    email_validator (1.6.0)
+      activemodel
     erubis (2.7.0)
     excon (0.45.3)
     execjs (2.5.2)
@@ -206,6 +208,7 @@ DEPENDENCIES
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   devise
+  email_validator
   execjs
   haml
   jbuilder (~> 2.0)

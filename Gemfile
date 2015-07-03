@@ -32,6 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sprockets'
 gem 'haml'
 gem 'mailchimp-api', require: 'mailchimp'
+gem 'email_validator'
 #gem 'emcee', :git => 'https://github.com/eliaslopezgt/emcee.git'
 #gem 'emcee'
 group :development, :test do

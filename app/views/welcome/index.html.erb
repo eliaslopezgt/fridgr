@@ -22,12 +22,12 @@
     <div class="row">
       <div class="col-lg-6">
         <h1>Recibe dinero por darnos el precio de tu mandado!</h1>
-        <form class="form-inline" role="form">
+        <%= form_tag("#{invitaciones_create_path}", method: "post", role: "form", class: "form-inline") do %>
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
           </div>
           <button type="submit" class="btn btn-warning btn-lg">Invitame!</button>
-        </form>
+        <% end %>
       </div><!-- /col-lg-6 -->
       <div class="col-lg-6">
         <img class="img-responsive" src="assets/ipad-hand.png" alt="">
@@ -73,12 +73,12 @@
   <hr>
   <div class="row centered">
     <div class="col-lg-6 col-lg-offset-3">
-      <form class="form-inline" role="form">
+      <%= form_tag("#{invitaciones_create_path}", method: "post", role: "form", class: "form-inline") do %>
         <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
         </div>
         <button type="submit" class="btn btn-warning btn-lg">Invitame!</button>
-      </form>
+      <% end %>
     </div>
     <div class="col-lg-3"></div>
   </div><!-- /row -->
@@ -98,12 +98,12 @@
   <hr>
   <div class="row centered">
     <div class="col-lg-6 col-lg-offset-3">
-      <form class="form-inline" role="form">
+      <%= form_tag("#{invitaciones_create_path}", method: "post", role: "form", class: "form-inline") do %>
         <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
         </div>
         <button type="submit" class="btn btn-warning btn-lg">Invitame!</button>
-      </form>
+      <% end %>
     </div>
     <div class="col-lg-3"></div>
   </div><!-- /row -->
@@ -143,12 +143,12 @@
   <hr>
   <div class="row centered">
     <div class="col-lg-6 col-lg-offset-3">
-      <form class="form-inline" role="form">
+      <%= form_tag("#{invitaciones_create_path}", method: "post", role: "form", class: "form-inline") do %>
         <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Entra tu email">
         </div>
         <button type="submit" class="btn btn-warning btn-lg">Invitame!</button>
-      </form>
+      <% end %>
     </div>
     <div class="col-lg-3"></div>
   </div><!-- /row -->
