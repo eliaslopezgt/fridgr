@@ -2,8 +2,9 @@ class InvitacionesController < ApplicationController
 
   def create
     result = EmailValidator.valid?(params['email'])? subscribe_email(params['email']) : false
+    mensaje = result ? "Su invitacion sera procesada a la brevedad, gracias!" : "Hubo un error en su solicitud, intente mas tarde."
     respond_to do |format|
-      format.html { redirect_to welcome_index_path, :flash => { :notice => "Review invite was successfully created." } }
+      format.html { redirect_to welcome_index_path, :flash => { :notice => mensaje } }
     end
   end
 
