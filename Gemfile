@@ -47,8 +47,6 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'actionpack-page_caching'
-gem 'actionpack-action_caching'
 gem 'execjs'
 gem 'devise'
 gem 'rails_12factor', group: :production
