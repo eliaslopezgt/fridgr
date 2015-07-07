@@ -47,10 +47,6 @@ group :development, :test do
   gem 'spring'
 end
 gem 'newrelic_rpm'
-gem 'dalli'
-gem 'memcachier'
-gem 'actionpack-page_caching'
-gem 'actionpack-action_caching'
 gem 'execjs'
 gem 'rails_12factor', group: :production
 gem 'puma'
