@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   post '/invitaciones' => 'invitaciones#create', :as => :invitaciones_create
   get '/csrf_meta_tags.html' => 'cache#csrf_meta_tags', :as => :csrf_meta_tags
+  get '/flash_tags.html' => 'cache#flash_tags', :as => :flash_tags
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

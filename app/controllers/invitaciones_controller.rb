@@ -1,5 +1,5 @@
 class InvitacionesController < ApplicationController
-  skip_before_filter :verify_authenticity_token, :only => [:create]
+  # skip_before_filter :verify_authenticity_token, :only => [:create]
 
   def create
     result = EmailValidator.valid?(params['email'])? subscribe_email(params['email']) : false
