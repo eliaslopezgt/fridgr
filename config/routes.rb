@@ -1,13 +1,12 @@
 Rails.application.routes.draw do
   get 'welcome/index'
-  resources :invitaciones
+  post '/invitaciones' => 'invitaciones#create', :as => :invitaciones_create
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   # mount using a custom path
-  #post '/invitaciones' => 'invitaciones#create', :as => :invitaciones_create
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
