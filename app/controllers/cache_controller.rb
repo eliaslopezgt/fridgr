@@ -8,6 +8,14 @@ class CacheController < ApplicationController
   end
   def csrf_meta_tags
   end
-  def flash_tags
+  def current_session_json
+    user_json = {
+        :env=>Rails.env
+    }
+    if session[:flash_notice].present?
+      user_json[:flash_notice] = session.delete(:flash_notice)
+      session.delete(:flash)
+    end
+    render :json=>user_json
   end
 end

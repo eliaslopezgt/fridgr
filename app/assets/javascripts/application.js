@@ -14,3 +14,21 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require_self
+
+window.getCurrentSession = function () {
+    var url = '/current_session.json';
+
+    $.getJSON(url, function (data, textStatus) {
+        if (textStatus !== 'success' || !data) {
+            return false;
+        }
+        // display notice text from flash
+        if (data.flash_notice) {
+            $('#flash_container').append(data.flash_notice).show();
+        }
+    });
+
+};
+
+window.getCurrentSession();
