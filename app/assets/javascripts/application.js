@@ -25,6 +25,7 @@ window.getCurrentSession = function () {
         }
         // display notice text from flash
         if (data.flash_notice) {
+            debugger;
             $('#flash_container').append(data.flash_notice).show();
         }
     });
