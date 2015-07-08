@@ -48,7 +48,6 @@ group :development, :test do
 end
 gem 'dalli'
 gem 'memcachier'
-gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 gem 'newrelic_rpm'
 gem 'execjs'
